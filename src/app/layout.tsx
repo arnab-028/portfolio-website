@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Arnab Kumar Ghosh | L2 Network Solution Architect & AIOps Builder",
+  title: "Arnab Kumar Ghosh | L2 Network Solution Architect & AI Developer",
   description: "Enterprise networking portfolio of Arnab Kumar Ghosh. Designing resilient telco-scale LAN/WAN architectures and deploying LLM-based autonomous troubleshooting agents to reduce MTTR.",
   keywords: [
     "Arnab Kumar Ghosh",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Arnab Kumar Ghosh" }],
   openGraph: {
-    title: "Arnab Kumar Ghosh | L2 Network Solution Architect & AIOps Builder",
+    title: "Arnab Kumar Ghosh | L2 Network Solution Architect & AI Developer",
     description: "Enterprise networking portfolio. Designing resilient telco-scale LAN/WAN architectures and deploying LLM-based autonomous troubleshooting agents.",
     type: "website",
   },
