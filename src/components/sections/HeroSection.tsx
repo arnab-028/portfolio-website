@@ -27,7 +27,7 @@ export const HeroSection = () => {
           </h1>
           
           <h2 className="text-xl md:text-2xl font-semibold text-neutral-300">
-            Network Engineer & Agentic AI Architect
+            Network Engineer & AI Developer
           </h2>
           
           <p className="font-normal text-sm md:text-base text-neutral-400 max-w-2xl leading-relaxed">
