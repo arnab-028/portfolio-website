@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="profileGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#030712"/>
+  <rect width="400" height="400" fill="url(#profileGlow)"/>
+  
+  <!-- Network grid lines in background -->
+  <path d="M 50,0 L 50,400 M 150,0 L 150,400 M 250,0 L 250,400 M 350,0 L 350,400 M 0,50 L 400,50 M 0,150 L 400,150 M 0,250 L 400,250 M 0,350 L 400,350" stroke="#1f2937" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <!-- Outer glowing rings -->
+  <circle cx="200" cy="200" r="120" fill="none" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="200" cy="200" r="100" fill="none" stroke="url(#circleGrad)" stroke-width="2" stroke-dasharray="10 15"/>
+  
+  <!-- Connecting lines -->
+  <line x1="200" y1="80" x2="100" y2="200" stroke="#3b82f6" stroke-width="1"/>
+  <line x1="200" y1="80" x2="300" y2="200" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="100" y1="200" x2="200" y2="320" stroke="#3b82f6" stroke-width="1"/>
+  <line x1="300" y1="200" x2="200" y2="320" stroke="#7c3aed" stroke-width="1"/>
+  
+  <!-- Node points -->
+  <circle cx="200" cy="80" r="8" fill="#3b82f6"/>
+  <circle cx="100" cy="200" r="8" fill="#60a5fa"/>
+  <circle cx="300" cy="200" r="8" fill="#a78bfa"/>
+  <circle cx="200" cy="320" r="8" fill="#7c3aed"/>
+  
+  <!-- Center Core -->
+  <circle cx="200" cy="200" r="50" fill="#090d16" stroke="url(#circleGrad)" stroke-width="3"/>
+  <text x="200" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">AKG</text>
+  <text x="200" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#9ca3af" text-anchor="middle" letter-spacing="2">L2 SOLUTION ARCHITECT</text>
+</svg>

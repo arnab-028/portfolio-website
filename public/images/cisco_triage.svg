@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 338" width="100%" height="100%">
+  <rect width="600" height="338" fill="#020617"/>
+  <!-- Wireshark layout -->
+  <rect x="40" y="30" width="520" height="250" rx="6" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <rect x="40" y="30" width="520" height="35" rx="6" fill="#1e293b" stroke-bottom="#334155"/>
+  <text x="60" y="52" font-family="sans-serif" font-size="12" font-weight="bold" fill="#cbd5e1">Wireshark - Packet Analysis [OSPF Flap Triage]</text>
+  
+  <!-- Packet Listing -->
+  <rect x="50" y="75" width="500" height="20" fill="#e11d48" fill-opacity="0.2"/>
+  <text x="60" y="89" font-family="monospace" font-size="11" fill="#fda4af">1  0.000000  10.1.12.1  224.0.0.5  OSPF  Hello Packet</text>
+  
+  <rect x="50" y="100" width="500" height="20" fill="#0284c7" fill-opacity="0.2"/>
+  <text x="60" y="114" font-family="monospace" font-size="11" fill="#7dd3fc">2  0.015024  10.1.12.2  10.1.12.1  OSPF  Database Description</text>
+  
+  <rect x="50" y="125" width="500" height="20" fill="#15803d" fill-opacity="0.2"/>
+  <text x="60" y="139" font-family="monospace" font-size="11" fill="#86efac">3  0.032115  10.1.12.1  10.1.12.2  OSPF  Link State Request</text>
+
+  <!-- Hex Dump preview -->
+  <rect x="50" y="160" width="500" height="100" rx="4" fill="#020617" stroke="#1e293b"/>
+  <text x="60" y="180" font-family="monospace" font-size="10" fill="#64748b">0000  00 00 0c 07 ac 01 00 0d b2 3a 4f a2 08 00 45 c0  .........:O..E.</text>
+  <text x="60" y="198" font-family="monospace" font-size="10" fill="#64748b">0010  00 54 1c 2b 00 00 ff 59 79 2a 0a 01 0c 01 e0 00  .T.+...Yy*......</text>
+  <text x="60" y="216" font-family="monospace" font-size="10" fill="#cbd5e1">0020  00 05 02 01 00 2c 0a 01 0c 01 00 00 00 00 c0 a8  .....,..........</text>
+  
+  <text x="300" y="310" font-family="sans-serif" font-size="14" font-weight="bold" fill="#38bdf8" text-anchor="middle">L2/L3 Packet Diagnostics (ASR &amp; NCS)</text>
+</svg>

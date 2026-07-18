@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 338" width="100%" height="100%">
+  <rect width="600" height="338" fill="#020617"/>
+  <!-- Topology Nodes -->
+  <line x1="300" y1="60" x2="300" y2="130" stroke="#64748b" stroke-width="2"/>
+  <line x1="300" y1="130" x2="180" y2="230" stroke="#64748b" stroke-width="2"/>
+  <line x1="300" y1="130" x2="420" y2="230" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- WAN Cloud -->
+  <rect x="250" y="30" width="100" height="50" rx="15" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <text x="300" y="60" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">WAN EDGE</text>
+  
+  <!-- Core Router (ASR-9000) -->
+  <rect x="250" y="110" width="100" height="40" rx="4" fill="#0f172a" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="300" y="134" font-family="sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold">Cisco ASR-9000</text>
+  
+  <!-- Switch 1 -->
+  <rect x="130" y="210" width="100" height="40" rx="4" fill="#0f172a" stroke="#10b981" stroke-width="2"/>
+  <text x="180" y="234" font-family="sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold">Core Switch (VLAN 10)</text>
+  
+  <!-- Switch 2 -->
+  <rect x="370" y="210" width="100" height="40" rx="4" fill="#0f172a" stroke="#10b981" stroke-width="2"/>
+  <text x="420" y="234" font-family="sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold">DMZ Switch (VLAN 20)</text>
+
+  <text x="300" y="295" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">SOHO Topology &amp; Zone Firewall Design</text>
+  <text x="300" y="315" font-family="sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Redundant Gateways via GLBP &amp; OSPF Convergence</text>
+</svg>

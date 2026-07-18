@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 338" width="100%" height="100%">
+  <rect width="600" height="338" fill="#020617"/>
+  <!-- Console / Script representation -->
+  <rect x="50" y="40" width="500" height="230" rx="8" fill="#090d16" stroke="#1e293b" stroke-width="2"/>
+  <!-- Header dots -->
+  <circle cx="70" cy="55" r="5" fill="#ef4444"/>
+  <circle cx="85" cy="55" r="5" fill="#f59e0b"/>
+  <circle cx="100" cy="55" r="5" fill="#10b981"/>
+  <text x="120" y="59" font-family="monospace" font-size="11" fill="#4b5563">jio_automation_script.py</text>
+  
+  <text x="80" y="100" font-family="monospace" font-size="13" fill="#10b981">import aci_session, pyez_api</text>
+  <text x="80" y="130" font-family="monospace" font-size="13" fill="#3b82f6">def validate_aci_bindings(tenant, app_profile):</text>
+  <text x="100" y="160" font-family="monospace" font-size="13" fill="#d1d5db">print(f"Checking static paths for {tenant}...")</text>
+  <text x="100" y="190" font-family="monospace" font-size="13" fill="#a78bfa">return aci_session.query_bindings(app_profile)</text>
+  <text x="80" y="220" font-family="monospace" font-size="13" fill="#22c55e"># Status: 200 OK - Drift Corrected</text>
+  
+  <text x="300" y="300" font-family="sans-serif" font-size="15" font-weight="bold" fill="#a78bfa" text-anchor="middle">Python Operations Automation</text>
+</svg>

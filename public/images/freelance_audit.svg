@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 338" width="100%" height="100%">
+  <rect width="600" height="338" fill="#020617"/>
+  <!-- Security Shield & nodes -->
+  <path d="M 300,70 L 370,100 L 370,180 C 370,225 300,260 300,260 C 300,260 230,225 230,180 L 230,100 Z" fill="#111827" stroke="#10b981" stroke-width="3"/>
+  <!-- Checkmark inside shield -->
+  <path d="M 270,165 L 290,185 L 335,135" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
+  
+  <text x="300" y="290" font-family="sans-serif" font-size="16" font-weight="bold" fill="#10b981" text-anchor="middle">Compliance Audit &amp; Hardening</text>
+  <text x="300" y="312" font-family="sans-serif" font-size="12" fill="#64748b" text-anchor="middle">80+ nodes audited, ACL refactoring, HIPAA compliance secured</text>
+</svg>
